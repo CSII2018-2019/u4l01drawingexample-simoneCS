@@ -17,13 +17,13 @@ public class U4L01DrawingGraphics extends JFrame {
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
-        //setSize(200, 200);
+        setSize(500, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 	
 	 private void initGUI(){
 	        //title 
-	        JPanel titlePanel = new JPanel(); 
+	        /*JPanel titlePanel = new JPanel(); 
 	        titlePanel.setBackground(Color.BLACK);
 	        add(titlePanel, BorderLayout.PAGE_START);
 	        Font titleFont = new Font("Fish&Chips", Font.BOLD, 32);
@@ -33,7 +33,7 @@ public class U4L01DrawingGraphics extends JFrame {
 	        titleLabel.setForeground(Color.WHITE);
 	        titleLabel.setFont(titleFont);
 	        titleLabel.setHorizontalAlignment(JLabel.CENTER);
-	        titlePanel.add(titleLabel);
+	        titlePanel.add(titleLabel); */
 	        
 	        //drawing panel
 	        DrawingPanel dp = new DrawingPanel();
